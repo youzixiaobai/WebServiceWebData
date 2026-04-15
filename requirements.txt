@@ -1,0 +1,15 @@
+# Flexible ranges for easier installs behind mirrors. See README if pip shows "from versions: none".
+
+fastapi>=0.109.0,<0.120.0
+# Use plain "uvicorn" on Windows to avoid building httptools from source (needs MSVC).
+# Optional: uvicorn[standard] on Linux/Mac for faster HTTP parsing.
+uvicorn>=0.24.0
+sqlalchemy>=2.0.30
+pydantic>=2.5.0
+pydantic-settings>=2.2.0
+typing_extensions>=4.8.0
+python-multipart>=0.0.9
+httpx>=0.25.0
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+fpdf2>=2.7.0
